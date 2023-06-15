@@ -1,0 +1,71 @@
+{
+  "feladatkiosztas": {
+    "fejleszto": [
+      {
+        "@fid": "1",
+        "nev": "Jani",
+        "email": "asd@test.com",
+        "nyelvek": "java, html",
+        "telefonszam": 620011111,
+        "lakcim": {
+          "utca": "info",
+          "hazszam": 33
+        }
+      },
+      {
+        "@fid": "2",
+        "nev": "Pista",
+        "email": "ipf@test.com",
+        "nyelvek": "java, html, css",
+        "telefonszam": 620022222,
+        "lakcim": {
+          "utca": "mester",
+          "hazszam": 55
+        }
+      }
+    ]
+  },
+  "feladattagolas": {
+    "reszleg": [
+      {
+        "@rid": "1",
+        "megnevezes": "frontend"
+      },
+      {
+        "@rid": "2",
+        "megnevezes": "backend"
+      }
+    ]
+  },
+  "fonokok": {
+    "fonok": {
+      "@foid": "1",
+      "nev": "Fono Konrad",
+      "ceg": "info bt",
+      "telefonszam": 6775565353
+    }
+  },
+  "megbizatas": {
+    "megbizo": [
+      {
+        "@mid": "1",
+        "nev": "Penzes Antal",
+        "ceg": "Penz kft"
+      },
+      {
+        "@mid": "2",
+        "nev": "Hur Imre",
+        "ceg": "Pacal Kft"
+      }
+    ]
+  },
+  "megbizas": {
+    "megbizas": {
+      "@meid": "1",
+      "hatarido": "2024.01.01",
+      "statusz": "aktiv",
+      "leiras": "nincs"
+    }
+  }
+}
+

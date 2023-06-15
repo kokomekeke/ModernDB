@@ -1,0 +1,100 @@
+{
+  "eszkozok": {
+    "eszkoz": [
+      {
+        "@eszkoz_azonosito_szam": "EZ123",
+        "eszköz_nev": "oszcilloszkop"
+      },
+      {
+        "@eszkoz_azonosito_szam": "EZ456",
+        "eszköz_nev": "lakatfogo"
+      }
+    ]
+  },
+  "tarolo_helyek": {
+    "tarolo_hely": [
+      {
+        "@tarolo_szam": "1",
+        "meret_osztaly": "2",
+        "tarolas_idopontja": {
+          "ev": "2022",
+          "honap": "5",
+          "nap": "15"
+        }
+      },
+      {
+        "@tarolo_szam": "2",
+        "meret_osztaly": "3",
+        "tarolas_idopontja": {
+          "ev": "2022",
+          "honap": "5",
+          "nap": "16"
+        }
+      }
+    ]
+  },
+  "telephelyek": {
+    "telephely": [
+      {
+        "@telephely_azonosito_szam": "1",
+        "telephely_cím": {
+          "varos": "Budapest",
+          "utca": "Kossuth Lajos utca",
+          "hazszám": "12"
+        }
+      },
+      {
+        "@telephely_azonosito_szam": "2",
+        "telephely_cím": {
+          "varos": "Pécs",
+          "utca": "Szent István tér",
+          "hazszám": "7"
+        }
+      }
+    ]
+  },
+  "dolgozok": {
+    "dolgozo": [
+      {
+        "@dolgozoi_azonosito_szam": "1",
+        "mobiltelefon_szam": "06301234567",
+        "dolgozo_cim": {
+          "város": "Budapest",
+          "utca": "Petőfi Sándor utca",
+          "hazszám": "5"
+        },
+        "elvegzett_Iskola": {
+          "legmagasabb_iskolai_vegzettség": "BSc",
+          "nyelvvizsga": "angol",
+          "egyeb": ""
+        }
+      },
+      {
+        "@dolgozoi_azonosito_szam": "2",
+        "mobiltelefon_szam": "06202223333",
+        "dolgozo_cim": {
+          "város": "Pécs",
+          "utca": "Jókai Sándor utca",
+          "hazszám": "50"
+        },
+        "elvegzett_Iskola": {
+          "legmagasabb_iskolai_vegzettség": "MSc",
+          "nyelvvizsga": "netem",
+          "egyeb": ""
+        }
+      }
+    ]
+  },
+  "kurzusok": {
+    "Kurzus": [
+      {
+        "@kurzus_azonosito": "1",
+        "maximalis_pontszam": " 100 "
+      },
+      {
+        "@kurzus_azonosito": "2",
+        "maximalis_pontszam": " 200 "
+      }
+    ]
+  }
+}
